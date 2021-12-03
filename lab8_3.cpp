@@ -1,9 +1,24 @@
 #include<iostream>
 using namespace std;
 
+#include<iostream>
+#include<string>
+using namespace std;
+
 char before(char x){
-	//Write your function definition here
-}
+    char u ='0';
+ if (x<='Z' and x>='A')
+ {
+     if(x =='A'){
+     x +=25;
+    }else{
+        x--;
+    }
+ }else{
+     x=u;
+ }
+}  
+
 
 int main(){
 	//Test Case
